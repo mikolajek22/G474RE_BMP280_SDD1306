@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "stm32g4xx_hal.h": "c",
+        "time.h": "c",
+        "i2c.h": "c",
+        "bmp280.h": "c",
+        "cmath": "c",
+        "cstdlib": "c",
+        "fonts.h": "c",
+        "gfx_oled.h": "c",
+        "ssd1306_oled.h": "c",
+        "gpio.h": "c"
+    },
+    "cortex-debug.gdbPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gdb",
+    "cortex-debug.openocdPath": "C:/openOCD/openocd-20240916/OpenOCD-20240916-0.12.0/bin/openocd"
+}

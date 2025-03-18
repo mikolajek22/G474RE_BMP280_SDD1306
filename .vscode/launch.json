@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "C:/Users/mikop/Documents/stm_project/i2cTutorial/build/i2cTutorial.elf",
+            "name": "Debug with OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "C:/openOCD/openocd-20240916/OpenOCD-20240916-0.12.0/share/openocd/scripts/interface/stlink.cfg",
+                "C:/openOCD/openocd-20240916/OpenOCD-20240916-0.12.0/share/openocd/scripts/target/stm32g4x.cfg"
+            ],
+            "searchDir": [],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+        },
+
+        
+    ]
+}
